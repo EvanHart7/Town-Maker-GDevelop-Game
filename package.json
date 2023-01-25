@@ -1,0 +1,26 @@
+{
+  "name": "tacky_32day_32_40tile_32based_32city_32builder_41",
+  "main": "main.js",
+  "productName": "Tacky Day (Tile based city builder)",
+  "description": "Tacky Day (Tile based city builder)",
+  "author": "",
+  "version": "1.0.0",
+  "dependencies": {
+    
+    "@electron/remote": "^2.0.8"
+  },
+  "scripts": {
+    "start": "electron main.js",
+    "build": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "18.2.2",
+    "electron-builder": "22.11.11"
+  },
+  "build": {
+    "appId": "com.example.hexagoncitybuilder",
+    "directories": {
+      "buildResources": "buildResources"
+    }
+  }
+}
